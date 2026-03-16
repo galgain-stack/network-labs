@@ -8,7 +8,7 @@ Each lab is used to practice building, testing, and troubleshooting network conf
 
 ### Bad Gateway Lab
 
-File: `Bad Gateway.pkt`
+File: network-foundations-v1.pkt
 
 This lab focuses on diagnosing and fixing connectivity issues related to gateway configuration.
 
