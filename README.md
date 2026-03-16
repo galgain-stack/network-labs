@@ -27,7 +27,12 @@ The purpose of this project is to practice building, testing, documenting, and t
 
 ## Labs
 
-### Bad Gateway Lab
+### Packet Tracer Labs
+
+- [Network Foundations Lab](packet-tracer/network-foundations-v1.pkt)
+- [Lab Documentation](packet-tracer/README.md)
+
+### Network Foundations Lab
 
 This lab focuses on understanding network connectivity problems and troubleshooting gateway issues.
 
