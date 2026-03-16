@@ -19,6 +19,25 @@ Version 2
 
 ACL removed from interface g0/1.40 allowing VLAN 40 to communicate with other VLANs.
 
+## Version 3 - DHCP Enablement
+`network-foundations-v2.pkt`
+
+### Summary
+This version adds DHCP services for VLAN10, VLAN20, VLAN30, and VLAN40 using router-based DHCP pools.
+
+### Changes Made
+- Added excluded gateway addresses for each VLAN
+- Configured DHCP pools for all four VLANs
+- Changed client hosts from static addressing to DHCP
+
+### Validation
+- Verified DHCP lease assignment for all VLANs
+- Verified default gateway reachability
+- Verified inter-VLAN connectivity
+- Verified leases with `show ip dhcp binding`
+
+### Rollback
+If DHCP configuration fails or causes incorrect addressing behavior, revert to `network-foundations-v2.pkt`.
 Skills practiced:
 
 - IP addressing
