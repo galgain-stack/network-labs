@@ -8,9 +8,17 @@ Each lab is used to practice building, testing, and troubleshooting network conf
 
 ### Bad Gateway Lab
 
-File: network-foundations-v1.pkt
+F### Network Foundations Lab
 
-This lab focuses on diagnosing and fixing connectivity issues related to gateway configuration.
+Version 1  
+`network-foundations-v1.pkt`
+
+VLAN 40 restricted from communicating with other VLANs using ACL 100.
+
+Version 2  
+`network-foundations-v2.pkt`
+
+ACL removed from interface g0/1.40 allowing VLAN 40 to communicate with other VLANs.
 
 Skills practiced:
 
