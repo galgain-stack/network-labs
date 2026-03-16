@@ -6,9 +6,8 @@ Each lab is used to practice building, testing, and troubleshooting network conf
 
 ## Labs
 
-### Bad Gateway Lab
 
-F### Network Foundations Lab
+### Network Foundations Lab
 
 Version 1  
 `network-foundations-v1.pkt`
