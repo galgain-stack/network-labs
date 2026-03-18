@@ -15,12 +15,12 @@ Version 1
 VLAN 40 restricted from communicating with other VLANs using ACL 100.
 
 Version 2  
-`network-foundations-v3.pkt`
+`network-foundations-v2.pkt`
 
 ACL removed from interface g0/1.40 allowing VLAN 40 to communicate with other VLANs.
 
 ## Version 3 - DHCP Enablement
-`network-foundations-v2.pkt`
+`network-foundations-v3.pkt`
 
 ### Summary
 This version adds DHCP services for VLAN10, VLAN20, VLAN30, and VLAN40 using router-based DHCP pools.
